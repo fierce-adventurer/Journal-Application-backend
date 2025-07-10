@@ -85,13 +85,6 @@
 
 - Logback
 
-🐳 Deployment & Containers
-Docker
-
-- Docker Compose
-
-- Embedded Tomcat
-
 ⚙️ Installation
 - Clone the repository:
 ```bash
@@ -198,18 +191,6 @@ json
 
 - `DELETE /journal/id/{id}`
 
-🐳 Docker Deployment
-- Build the Image
-`docker build -t journal-backend .`
-
-- Run the Container
-`docker run -p 8080:8080 --env-file .env journal-backend`
-
-- Docker Compose
-`docker-compose up -d`
-
-🗃️ Database Schema
-- Users Collection
 ```
 - id – Primary key
 
